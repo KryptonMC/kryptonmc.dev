@@ -1,8 +1,9 @@
 import styles from '../styles/Resources.module.css';
+import Head from 'next/head';
 
 export default function Resources() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>kryptonmc.dev | resources coming soon</title>
         <meta
